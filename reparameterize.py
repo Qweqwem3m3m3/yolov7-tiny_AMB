@@ -7,8 +7,8 @@ import yaml
 
 weights = 'THE PATH YOU FIND/best.pt'
 class_num = 1
-custom_yaml = '/content/yolov7/cfg/deploy/yolov7-tiny.yaml'
-target = '/content/yolov7/best_Reparameterize.pt'
+custom_yaml = '/content/yolov7-tiny_AMB/cfg/deploy/yolov7-tiny.yaml'
+target = '/content/yolov7-tiny_AMB/best_Reparameterize.pt'
 
 device = select_device('0', batch_size=1)
 # model trained by cfg/training/*.yaml
